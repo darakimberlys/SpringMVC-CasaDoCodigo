@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../../:\Users\darak\Google Drive\2- Education\1- Cursos\Java\03-Avançado\Spring MVC\forge-distribution-3.9.7.Final-offline\forge-distribution-3.9.7.Final\bin\casadocodigo\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
