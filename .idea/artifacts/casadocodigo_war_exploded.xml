@@ -44,7 +44,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.0.RELEASE" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.15" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.21" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
