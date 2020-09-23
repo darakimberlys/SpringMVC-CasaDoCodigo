@@ -45,6 +45,4 @@ public class JPAConfiguration {
     public JpaTransactionManager transactionManager(EntityManagerFactory emf) {
         return new JpaTransactionManager(emf);
     }
-
-
 }

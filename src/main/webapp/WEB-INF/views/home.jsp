@@ -1,11 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: darakimberlys
-  Date: 16/09/2020
-  Time: 19:06
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Livro de Java, Android e muito mais - Casa do Código</title>
