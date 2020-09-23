@@ -1,4 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -7,18 +9,22 @@
 </head>
 <body>
 <h1>Casa do Código</h1>
-<form action="/casadocodigo/produtos" method="post">
+<%--@elvariable id="produto" type="br"--%>
+<form:form action="${s:mvcUrl('PC#gravar').build() }" method="post" commandName="produto">
     <div>
         <label>Título</label>
         <input type="text" name="titulo" />
+        <form:errors path="titulo" />
     </div>
     <div>
         <label>Descrição</label>
         <textarea rows="10" cols="20" name="descricao"></textarea>
+        <form:errors path="descricao" />
     </div>
     <div>
         <label>Páginas</label>
         <input type="text" name="paginas" />
+        <form:errors path="paginas" />
     </div>
     <c:forEach items="${tipos}" var="tipoPreco" varStatus="status">
         <div>
@@ -29,6 +35,6 @@
     </c:forEach>
 
     <button type="submit">Cadastrar</button>
-</form>
+</form:form>
 </body>
 </html>

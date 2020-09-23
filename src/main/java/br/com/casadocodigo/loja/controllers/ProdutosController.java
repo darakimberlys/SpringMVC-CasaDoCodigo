@@ -18,7 +18,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Controller
-@RequestMapping("produtos")
+@RequestMapping("/produtos")
 public class ProdutosController {
 
     @Autowired
@@ -51,7 +51,6 @@ public class ProdutosController {
         List<Produto> produtos = produtoDAO.listar();
         ModelAndView modelAndView = new ModelAndView("produtos/lista");
         modelAndView.addObject("produtos", produtos);
-
         return modelAndView;
     }
 }
