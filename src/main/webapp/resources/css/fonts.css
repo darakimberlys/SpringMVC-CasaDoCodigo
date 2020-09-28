@@ -1,19 +1,17 @@
 @font-face {
-  font-family: 'Museo';
-  font-style: normal;
-  font-weight: normal;
-  src: url('museo-500.eot');
-  src: url('museo-500.eot?#iefix') format('embedded-opentype'),
-       url('museo-500.woff') format('woff'),
-       url('museo-500.ttf') format('truetype');
+    font-family: 'Museo';
+    font-style: normal;
+    font-weight: normal;
+    src: url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.eot");
+    src: url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.woff") format("woff"), url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/8dfacbebef24c7bcdef86c61dbe555f9.svg#Museo") format("svg");
 }
 
 @font-face {
-  font-family: 'Museo';
-  font-style: normal;
-  font-weight: bold;
-  src: url('museo-700.eot');
-  src: url('museo-700.eot?#iefix') format('embedded-opentype'),
-       url('museo-700.woff') format('woff'),
-       url('museo-700.ttf') format('truetype');
+    font-family: 'Museo';
+    font-style: normal;
+    font-weight: bold;
+    src: url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.eot");
+    src: url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.woff") format("woff"), url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dc579f9739403ae5d95bb441a0b69082.svg#Museo") format("svg");
 }
