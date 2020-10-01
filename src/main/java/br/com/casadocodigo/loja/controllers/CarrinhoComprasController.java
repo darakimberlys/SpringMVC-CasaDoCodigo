@@ -28,7 +28,6 @@ public class CarrinhoComprasController {
         CarrinhoItem carrinhoItem = criaItem(produtoId, tipoPreco);
 
         carrinho.add(carrinhoItem);
-        
         return modelAndView;
     }
 
@@ -39,3 +38,4 @@ public class CarrinhoComprasController {
     }
 
 }
+      

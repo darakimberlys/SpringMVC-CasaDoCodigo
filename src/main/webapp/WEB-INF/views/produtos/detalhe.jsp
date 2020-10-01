@@ -11,7 +11,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="icon" href="/cdn.shopify.com/s/files/1/0155/7645/t/177/assets/favicon.ico?11981592617154272979" type="image/ico" />
+    <link rel="icon" href="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/favicon.ico?11981592617154272979" type="image/ico" />
     <link href="https://plus.googlecom/108540024862647200608" rel="publisher" />
 
     <title>Livros de Java, SOA, Android, iPhone, Ruby on Rails e muito mais - Casa do Código</title>
@@ -77,7 +77,7 @@
     </header>
 
     <section class="buy-options clearfix">
-        <form action='<c:url value="/carrinho/add" />' method="POST" class="container">
+        <form action='<c:url value="/carrinho/add" />' method="post" class="container">
             <input type="hidden" value="${produto.id }" name="produtoId" >
             <ul id="variants" class="clearfix">
                 <c:forEach items="${produto.precos }" var="preco">
