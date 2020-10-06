@@ -13,7 +13,7 @@ public class CarrinhoItem {
         this.tipoPreco = tipoPreco;
     }
 
-    public BigDecimal getPreco(){
+    public BigDecimal getPreco() {
         return produto.precoPara(tipoPreco);
     }
 

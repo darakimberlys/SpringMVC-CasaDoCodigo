@@ -85,7 +85,7 @@
             <ul id="variants" class="clearfix">
                 <c:forEach items="${produto.precos }" var="preco">
                     <li class="buy-option">
-                        <input type="radio" name="id" class="variant-radio" id="tipo" value="${preco.tipo }"
+                        <input type="radio" name="id" class="variant-radio" id="tipoPreco" value="${preco.tipo }"
                                checked="checked"/>
                         <label class="variant-label">${preco.tipo }</label>
                         <small class="compare-at-price">R$ 39,90</small>
